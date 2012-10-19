@@ -1,0 +1,99 @@
+@IMPORT url("common/extended.css");
+
+/**
+ * Header
+ */
+
+#header
+{
+	background-color: #abe128;
+}
+
+#header h1
+{
+	width: 379px;
+	height: 81px;
+	
+	background-image: url("../images/layout/header/home/title.png");
+	background-repeat: no-repeat;
+}
+
+#header h1 span
+{
+	display: none;
+}
+
+#header .slide
+{
+	height: 180px;
+	padding: 50px 0 0 0;
+	margin-top: -40px;
+	
+	background-image: url("../images/layout/header/home/gradient.png");
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+#header .slide .about_link
+{
+	margin-left: 180px;
+	padding: 7px 15px;
+	background-color: #222;
+	-moz-border-radius: 10px;
+	color: #fff;
+	text-decoration: none;
+}
+
+#header .slide .about_link:hover
+{
+	color: #abe128;
+}
+
+#header .slide img
+{
+	margin: -110px 0 0 0;
+	float: right;
+}
+
+.tips
+{
+	float: right;
+	padding: 10px 15px;
+	background-color: #eee;
+	-moz-border-radius: 10px;
+	width: 30%;
+}
+
+.news h2.title
+{
+	margin: 0 0 20px 30px;
+	padding: 0;
+	
+	width: 63px;
+	height: 22px;
+	
+	background-image: url("../images/layout/body/home/news.png");
+	background-repeat: no-repeat;
+}
+
+.news h2.title span
+{
+	display: none;
+}
+
+.news
+{
+	float: left;
+	width: 60%;
+}
+
+.news .item h3
+{
+	padding: 0;
+}
+.news .item .information
+{
+	margin-bottom: 20px;
+	
+	font-style: italic;
+}

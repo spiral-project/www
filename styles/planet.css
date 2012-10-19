@@ -1,0 +1,80 @@
+@IMPORT url("common/extended.css");
+
+/**
+ * Header
+ */
+
+#header
+{
+	background-color: #66c;
+}
+
+#header h1
+{
+	width: 147px;
+	height: 69px;
+	
+	background-image: url("../images/layout/header/planet/title.png");
+	background-repeat: no-repeat;
+	
+	float: left;
+}
+
+#header h1 span
+{
+	display: none;
+}
+
+#header .slide
+{
+	height: 180px;
+	padding: 50px 0 0 0;
+	margin-top: -40px;
+	
+	background-image: url("../images/layout/header/planet/gradient.png");
+	background-position: center -20px;
+	background-repeat: no-repeat;
+}
+
+#header .slide img
+{
+	margin: -110px 0 0 0;
+	float: right;
+}
+
+#header .slide .community_link
+{
+	float: right;
+	margin-right: 180px;
+	padding: 7px 15px;
+	background-color: #222;
+	-moz-border-radius: 10px;
+	color: #fff;
+	text-decoration: none;
+}
+
+#header .slide .community_link:hover
+{
+	color: #db2;
+}
+
+#content .slide
+{
+	margin: 4em 10%;
+}
+
+/**
+ * Typo
+ */
+
+a
+{
+    text-decoration: underline;
+    color: #686;
+}
+
+a:hover
+{
+    text-decoration: none;
+    color: #8a8;
+}

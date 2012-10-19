@@ -1,0 +1,24 @@
+/* "Notmyidea" color scheme */
+
+.php {
+    background-color:#222222;
+    color:#FFFFFF;
+    font-family:"Bitstream Vera Sans Mono",monospace;
+    font-size:13px;
+    line-height:17px;
+    margin-bottom:15px;
+    margin-left:30px;
+    margin-right:30px;
+    overflow:auto;
+    padding:10px;
+}
+.php .co1, .php .co2, .php .co3, .php .co4, .php .coMULTI { color: #745179; font-style: italic; }
+.php .nu0, .php .re3 { color: #3466A3; }
+.php .st0, .php .st_h, .php .es0, .php .es1 { color: #72D312; }
+.php .me1, .php .me2 { color:  #EED204;}
+.php .kw1, .php .kw2, .php .sy1 { color: #F47804; }
+.php .kw3, .php .kw4, .php .kw5, .php .re2 { color: #EED204; }
+.php .re0, .php .re1 { color: #D4D7CE; }
+.php .br0, .php .sy0 { color: #D4D7CE; }
+.php .xml .re1 { color:  #EED204}
+.php .xml .re0 { color: #3466A3 }

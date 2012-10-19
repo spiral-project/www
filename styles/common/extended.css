@@ -1,0 +1,11 @@
+@IMPORT url("main.css");
+@IMPORT url("typo.css");
+
+/**
+ * Header
+ */
+
+#header
+{
+	height: 180px;
+}

@@ -1,0 +1,126 @@
+@IMPORT url("common/extended.css");
+
+/**
+ * Header
+ */
+
+#header
+{
+	background-color: #aca;
+}
+
+#header h1
+{
+	width: 160px;
+	height: 92px;
+	
+	background-image: url("../images/layout/header/about/title.png");
+	background-repeat: no-repeat;
+	
+	float: left;
+}
+
+#header h1 span
+{
+	display: none;
+}
+
+#header .slide
+{
+	height: 180px;
+	padding: 50px 0 0 0;
+	margin-top: -40px;
+	
+	background-image: url("../images/layout/header/about/gradient.png");
+	background-position: center -20px;
+	background-repeat: no-repeat;
+}
+
+#header .slide img
+{
+	margin: -110px 0 0 0;
+	float: right;
+}
+
+#header .slide .downloads_link
+{
+	float: right;
+	margin-right: 180px;
+	padding: 7px 15px;
+	background-color: #222;
+	-moz-border-radius: 10px;
+	color: #fff;
+	text-decoration: none;
+}
+
+#header .slide .downloads_link:hover
+{
+	color: #aca;
+}
+
+#content .slide
+{
+	margin: 4em 10%;
+}
+
+.reuse_your_code h2
+{
+	float: right;
+	margin: -40px 0 0 0;
+	padding: 0;
+	
+	height: 36px;
+	width: 245px;
+	
+	background-image: url("../images/layout/body/about/reuse_your_code.png");
+	background-repeat: no-repeat;
+}
+
+.reuse_your_code h2 span
+{
+	display: none;
+}
+
+.reuse_your_code img
+{
+	float: right;
+}
+
+.focus_on_the_model h2
+{
+	float: left;
+	margin: -40px 0 0 0;
+	padding: 0;
+	
+	height: 66px;
+	width: 248px;
+	
+	background-image: url("../images/layout/body/about/focus_on_the_model.png");
+	background-repeat: no-repeat;
+}
+
+.focus_on_the_model h2 span
+{
+	display: none;
+}
+
+.focus_on_the_model img
+{
+	float: left;
+}
+
+/**
+ * Typo
+ */
+
+a
+{
+    text-decoration: underline;
+    color: #686;
+}
+
+a:hover
+{
+    text-decoration: none;
+    color: #8a8;
+}
